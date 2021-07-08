@@ -703,10 +703,6 @@ a {
   margin-bottom: -30px;
 }
 
-/* НЕ-МОГУ-это-раскомитить(то-что-внизу) */
-
-/* /* /* }  */
-
 .card-list__link {
   display: inline-block;
   flex-direction: column;
