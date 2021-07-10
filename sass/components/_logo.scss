@@ -1,0 +1,41 @@
+.logo {
+  display: inline-block;
+  margin-right: 93px;
+
+  font-family: var(--accent-font);
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+
+.logo__web {
+  color: var(--accent-color);
+}
+.logo__studio {
+  color: black;
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: var(--accent-font);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.174;
+}
+
+.logo-footer-portfolio {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: var(--accent-font);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.174;
+}
+.logo-footer__web {
+  color: var(--accent-color);
+}
+
+.logo-footer__studio {
+  color: var(--white-color);
+}

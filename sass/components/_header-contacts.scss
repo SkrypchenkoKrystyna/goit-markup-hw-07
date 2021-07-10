@@ -1,0 +1,38 @@
+.contact-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143px;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact-list__item {
+  &:not(:first-child) {
+    margin-left: 50px;
+  }
+}
+
+.contact-list {
+  margin-left: auto;
+  display: flex;
+  color: var(--main-text-color);
+}
+
+.contact-list__item {
+  margin-left: 50px;
+}
+
+.contact-list__link {
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+
+.contact-list__icon {
+  fill: currentColor;
+  margin-right: 10px;
+}

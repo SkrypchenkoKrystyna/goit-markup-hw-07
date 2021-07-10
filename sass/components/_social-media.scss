@@ -1,0 +1,27 @@
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.social-media-list__item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.social-media-list__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--icon-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--white-color);
+  }
+}

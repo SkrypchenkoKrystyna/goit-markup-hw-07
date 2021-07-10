@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
